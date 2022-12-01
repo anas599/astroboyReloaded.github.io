@@ -74,19 +74,24 @@
 
 ### Prerequisites
 
-- None
+- HTML & CSS
 
 ### Setup
 
-- None
+- You may add Linters to work on adding elements to this project.
 
 ### Install
 
-- No installation required.
+- npm init -y
+- npm install -g lighthouse.
+- npm install --save-dev hint@7.x
+- npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 
 ### Usage
 
-- Navigate throught the site to see my projects.
+- May use as a base to develop your own portfolio.
+- Run `npx hint .` to get code review.
+- Run `npx stylelint "**/*.{css,scss}"` to get code review.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
