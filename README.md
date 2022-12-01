@@ -22,8 +22,8 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
+
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Portfolio-setup-and-mobile-first <a name="about-project"></a>
@@ -58,13 +58,14 @@
 - **Mobile First.**
 - **Toolbar.**
 - **Headline.**
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://portfolio-setup-and-mobile-first.netlify.app/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -87,6 +88,7 @@
 
 - Navigate throught the site to see my projects.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- AUTHORS -->
 
 ## Authors <a name="authors"></a>
@@ -96,14 +98,14 @@
 - GitHub: [astroboyReloaded](https://github.com/astroboyReloaded)
 - Twitter: [@astroboyReload](https://twitter.com/astroboyReload)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/astroboyreloaded/)
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Contact Form.**
 - [ ] **Desktop Vertion**
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -111,17 +113,23 @@
 Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- SUPPORT -->
+
 ## ⭐️ Show your support <a name="support"></a>
-> If you like my work in this project, please leave a comment letting me know what you think!
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+> If you like my work on this project, please leave a comment letting me know what you think!
+
 <!-- ACKNOWLEDGEMENTS -->
+
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
 > Thanks to microverse for giving me a path to follow in this learning journey.
-> Thanks to my mates who walk by me in this journey and share they experiences an knowledge with me, you make this experience more valuable.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+> Thanks to my mates who walk by me in this journey and share they experiences an knowledge with me, you make this experience more valuable!
+
 <!-- LICENSE -->
+
 ## 📝 License <a name="license"></a>
+
 No license is required for this project.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
