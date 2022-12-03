@@ -37,11 +37,12 @@ header > .nav-bar {
   position: absolute;
   width: 75px;
   height: 75px;
-  background: linear-gradient(
-    to right bottom,
-    #fec25a 50%,
-    rgba(255, 255, 255, 0) 50%
-  );
+  background:
+    linear-gradient(
+      to right bottom,
+      #fec25a 50%,
+      rgba(255, 255, 255, 0) 50%
+    );
 }
 
 .img-2 {
@@ -268,7 +269,7 @@ button:hover {
   flex-direction: column;
   width: 100%;
   margin-block: 18px;
-  padding: 60px 0px 0px 60px;
+  padding: 60px 0 0 60px;
   color: white;
 }
 
@@ -293,8 +294,8 @@ button:hover {
 
 .lang-cont {
   position: absolute;
-  bottom: 0px;
-  right: 0px;
+  bottom: 0;
+  right: 0;
   width: 110px;
   max-width: 40%;
   height: 110px;
@@ -309,7 +310,7 @@ button:hover {
 
 .frame-cont {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   right: 0;
   width: 110px;
   max-width: 35%;
@@ -325,7 +326,7 @@ button:hover {
 
 .skills-cont {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   right: 0;
   width: 135px;
   max-width: 35%;
@@ -357,6 +358,7 @@ footer {
   width: 24px;
   height: 24px;
 }
+
 svg {
   color: #92dcdc;
 }
