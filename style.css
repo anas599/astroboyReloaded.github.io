@@ -37,12 +37,11 @@ header > .nav-bar {
   position: absolute;
   width: 75px;
   height: 75px;
-  background:
-    linear-gradient(
-      to right bottom,
-      #fec25a 50%,
-      rgba(255, 255, 255, 0) 50%
-    );
+  background: linear-gradient(
+    to right bottom,
+    #fec25a 50%,
+    rgba(255, 255, 255, 0) 50%
+  );
 }
 
 .img-2 {
@@ -160,6 +159,18 @@ main {
   cursor: pointer;
 }
 
+.start-colaboration:hover {
+  color: #1a2236;
+  background-color: #fff;
+  border: 2px solid gray;
+}
+
+.start-colaboration:active {
+  background-color: #fff;
+  border-color: #1a2236;
+  color: #1a2236;
+}
+
 /*********** Work Section ************/
 
 .work-container {
@@ -221,6 +232,10 @@ main {
   border-style: none;
 }
 
+.button-link {
+  width: fit-content;
+}
+
 button {
   color: white;
   background-color: #1a2236;
@@ -229,13 +244,21 @@ button {
 }
 
 button:hover {
-  border: 2px solid rgb(103, 103, 255);
+  background-color: white;
+  color: #1a2236;
+  border: 2px solid #1a2236;
+}
+
+button:active {
+  background-color: #fff;
+  border-color: gray;
+  color: #1a2236;
 }
 
 .see-project {
-  width: 50%;
+  width: fit-content;
   margin: 24px 18px;
-  padding: 9px 0;
+  padding: 9px 30px;
   font-size: 1rem;
 }
 
@@ -373,6 +396,7 @@ svg {
   width: 100%;
   padding: 18px 0;
   margin-bottom: 18px;
+  list-style: none;
 }
 
 .fa {
