@@ -160,6 +160,18 @@ main {
   cursor: pointer;
 }
 
+.start-colaboration:hover {
+  color: #1a2236;
+  background-color: #fff;
+  border: 2px solid gray;
+}
+
+.start-colaboration:active {
+  background-color: #fff;
+  border-color: #1a2236;
+  color: #1a2236;
+}
+
 /*********** Work Section ************/
 
 .work-container {
@@ -215,10 +227,16 @@ main {
 }
 
 .thum-lang {
+  display: flex;
+  flex-wrap: nowrap;
   padding: 3px 9px;
   margin-right: 12px;
   background-color: #98dede;
   border-style: none;
+}
+
+.button-link {
+  width: fit-content;
 }
 
 button {
@@ -229,13 +247,21 @@ button {
 }
 
 button:hover {
-  border: 2px solid rgb(103, 103, 255);
+  background-color: white;
+  color: #1a2236;
+  border: 2px solid #1a2236;
+}
+
+button:active {
+  background-color: #fff;
+  border-color: gray;
+  color: #1a2236;
 }
 
 .see-project {
-  width: 50%;
+  width: fit-content;
   margin: 24px 18px;
-  padding: 9px 0;
+  padding: 9px 30px;
   font-size: 1rem;
 }
 
@@ -340,6 +366,72 @@ button:hover {
   opacity: 0.6;
 }
 
+/* Contact form */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9fa;
+  width: 100%;
+  padding-bottom: 36px;
+}
+
+.contact-form h2 {
+  margin: 30px 18px;
+  font-size: 3.6rem;
+}
+
+.contact-form p {
+  margin: 18px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+}
+
+.contact-form form ul li {
+  list-style: none;
+  margin: 9px 0;
+}
+
+.form-input-container {
+  position: relative;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  padding: 0;
+}
+
+.form-input-container label {
+  position: absolute;
+  color: #7d7c84;
+  margin: 3px 18px;
+  font-size: 0.8rem;
+}
+
+.form-input-container input {
+  border: none;
+  border-radius: 4px;
+  outline: 0;
+  font-size: 1rem;
+  padding: 27px 18px 9px 18px;
+  width: 100%;
+}
+
+.message {
+  padding: 18px;
+  width: 100%;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-input-container input:focus,
+.message:focus {
+  border: 1px solid #1a2236;
+}
+
 footer {
   background-color: #1a2236;
   width: 100%;
@@ -373,6 +465,7 @@ svg {
   width: 100%;
   padding: 18px 0;
   margin-bottom: 18px;
+  list-style: none;
 }
 
 .fa {
