@@ -52,7 +52,7 @@
       <!------------ Work Section ------------>
       <section class="work-container">
         <figure class="shapes-design-container"></figure>
-        <h1 class="work-title section-title playfair">Projects</h1>
+        <h2 class="work-title section-title playfair">Projects</h2>
         <article class="tumbnail-container">
           <img class="thum-img" src="/images/Project1.jpg" alt="" />
           <h1 class="thum-title poppins">Project name goes here</h1>
@@ -126,7 +126,7 @@
             <li><span class="thum-lang poppins">Ruby on Rails</span></li>
             <li><span class="thum-lang poppins">JavaScript</span></li>
           </ul>
-          <a class="button-link" href="https://www.google.com/" target="_blank"
+          <a class="button-link" href="#" target="_blank"
             ><button class="see-project poppins" type="button">
               See this project<i class="fas fa-arrow-right"></i></button
           ></a>
@@ -135,7 +135,7 @@
 
       <!----------- About Section -------------->
       <section class="about-container">
-        <h1 class="section-title playfair">About</h1>
+        <h2 class="section-title playfair">About</h2>
         <p class="about-paragraph poppins">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -186,34 +186,47 @@
           </li>
         </ul>
       </section>
-      <section class="get-started-container"></section>
       <section class="contact-form">
-        <h2>Get started</h2>
-        <p>
+        <div class="logo">
+          <div class="img-1"></div>
+          <div class="img-2"></div>
+        </div>
+        <h2 class="section-title playfair">Get started</h2>
+        <p class="poppins">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna.
         </p>
-        <form action="#" method="post">
+        <form action="https://formspree.io/f/xgeqgyvl" method="post">
           <ul>
-            <li>
-              <label for="name"
-                >Your name
-                <input type="text" name="name" id="name" />
-              </label>
+            <li class="form-input-container">
+              <label for="name" class="poppins">Your name </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                maxlength="30"
+                required
+              />
+            </li>
+            <li class="form-input-container">
+              <label for="email" class="poppins">Your email </label>
+              <input type="email" name="email" id="email" required />
             </li>
             <li>
-              <label for="email"
-                >Your email
-                <input type="email" name="email" id="email" />
-              </label>
-            </li>
-            <li>
-              <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here..."></textarea>
-            </li>
-            <li>
-              <button type="submit">Start collaboration</button>
+              <textarea
+                name="message"
+                id="message"
+                rows="5"
+                class="message poppins"
+                placeholder="Enter your message here..."
+                maxlength="500"
+                required
+              ></textarea>
             </li>
           </ul>
+          <button class="start-colaboration poppins" type="submit">
+            Start collaboration
+          </button>
         </form>
       </section>
       <footer>
