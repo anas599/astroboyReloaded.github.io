@@ -425,3 +425,20 @@ svg {
   background: url('/images/peace-n-love.svg') no-repeat;
   background-size: contain;
 }
+
+/* Contact form */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+}
+
+.contact-form form ul li {
+  list-style: none;
+}
