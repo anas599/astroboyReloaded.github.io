@@ -244,6 +244,7 @@ button {
   background-color: #1a2236;
   border: 2px solid white;
   cursor: pointer;
+  transition: all 0.25s ease-out;
 }
 
 button:hover {
@@ -493,3 +494,6 @@ svg {
   background: url('/images/peace-n-love.svg') no-repeat;
   background-size: contain;
 }
+
+/* Animation and Transition */
+
