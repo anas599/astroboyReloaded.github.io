@@ -194,13 +194,17 @@ main {
   height: fit-content;
 }
 
+.thum-img {
+  width: 100%;
+}
+
 .show-hide {
   background-color: #1a2236;
 }
 
 .thum-title {
+  font-size: 150%;
   margin: 18px;
-  font-size: 1.5rem;
   color: white;
   font-weight: lighter;
 }
@@ -217,8 +221,14 @@ main {
   display: inline-block;
   padding: 3px 9px;
   margin-right: 12px;
+  margin-bottom: 3px;
   background-color: #98dede;
   border-style: none;
+  font-size: 90%;
+}
+
+.plus {
+  display: none;
 }
 
 .button-link {
@@ -229,6 +239,7 @@ button {
   color: white;
   background-color: #1a2236;
   border: 2px solid white;
+  font-size: 50%;
   cursor: pointer;
   transition: all 0.25s ease-out;
 }
@@ -262,6 +273,7 @@ button:active {
 }
 
 .getCv-button {
+  width: 100%;
   border-style: none;
   padding-block: 18px;
   margin: 24px 0;
@@ -313,10 +325,9 @@ button:active {
 .lang-cont {
   position: absolute;
   bottom: 0;
-  right: 0;
-  width: 110px;
-  max-width: 40%;
-  height: 110px;
+  right: -13%;
+  width: 30%;
+  height: 30%;
   background: url('/images/lang.svg') no-repeat;
   background-size: contain;
   opacity: 0.6;
@@ -329,10 +340,9 @@ button:active {
 .frame-cont {
   position: absolute;
   bottom: 0;
-  right: 0;
-  width: 110px;
-  max-width: 35%;
-  height: 110px;
+  right: -13.5%;
+  width: 30%;
+  height: 30%;
   background: url('/images/Frameworks.svg') no-repeat;
   background-size: contain;
   opacity: 0.6;
@@ -345,16 +355,15 @@ button:active {
 .skills-cont {
   position: absolute;
   bottom: 0;
-  right: 0;
-  width: 135px;
-  max-width: 35%;
-  height: 135px;
+  right: -13%;
+  width: 30%;
+  height: 30%;
   background: url('/images/ic_skills.svg') no-repeat;
   background-size: contain;
   opacity: 0.6;
 }
 
-/* Contact form */
+/******* Contact form ********/
 
 .contact-form {
   display: flex;
@@ -364,7 +373,14 @@ button:active {
   padding-bottom: 36px;
 }
 
-.contact-form h2 {
+.form-deco-1 {
+  position: relative;
+  width: 111px;
+  height: 74px;
+  background: url('images/deco/mobil/nav-logo.svg');
+}
+
+.form-title {
   margin: 30px 18px;
   font-size: 3.6rem;
 }
@@ -486,6 +502,8 @@ svg {
   background-size: contain;
 }
 
+/*************** Key Frames ******************/
+
 @media screen and (min-width: 768px) {
   header {
     display: grid;
@@ -567,11 +585,12 @@ svg {
   .work-container {
     margin-top: 6rem;
     width: 100%;
+    max-width: 1440px;
     height: 87.6445vw;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 0;
-    margin-bottom: 80vh;
+    margin-bottom: 30vw;
   }
 
   .thum-img {
@@ -593,7 +612,7 @@ svg {
   .seven-dots {
     position: relative;
     grid-area: 1 / 2 / 2 / 2;
-    left: -11.9vw;
+    left: -11.8vw;
     top: 3px;
     background: url('/images/deco/desktop/seven_dots.svg') no-repeat;
     background-size: contain;
@@ -603,7 +622,7 @@ svg {
 
   .tn1 {
     grid-area: 1 / 2 / 2 / 4;
-    width: 66.5vw;
+    width: 66.6vw;
     height: 38.75vw;
   }
 
@@ -619,26 +638,27 @@ svg {
     position: relative;
     grid-area: 2 / 2 / 3 / 3;
     width: 35.5vw;
-    background: url('/images/deco/desktop/image-geometry_work-center.svg')
+    background:
+      url('/images/deco/desktop/image-geometry_work-center.svg')
       no-repeat;
     background-size: contain;
-    top: 1.2%;
-    left: -4.5%;
+    top: 1.5%;
     z-index: -1;
   }
 
   .tn3 {
     position: relative;
     grid-area: 3 / 1 / 4 / 2;
-    width: 167.3%;
-    top: -0.3%;
+    width: 172.3%;
+    top: -0.7%;
   }
 
   .left-shape {
     position: relative;
     grid-area: 4 / 1 / 5 / 2;
-    top: -0.5%;
-    background: url('/images/deco/desktop/image-geometry_work-left.svg')
+    top: -1.7%;
+    background:
+      url('/images/deco/desktop/image-geometry_work-left.svg')
       no-repeat;
     background-size: contain;
     width: 55.55%;
@@ -650,15 +670,15 @@ svg {
     background: url('/images/deco/desktop/single_drop.svg') no-repeat;
     background-size: contain;
     width: 7vw;
-    top: -0.5%;
-    left: 145.5%;
+    top: -1.7%;
+    left: 150.3%;
   }
 
   .tn4 {
     position: relative;
     grid-area: 4 / 3 / 5 / 4;
-    left: -30.8%;
-    top: -0.9%;
+    left: -28.2%;
+    top: -2.4%;
     width: 32.3vw;
     z-index: 1;
   }
@@ -666,29 +686,28 @@ svg {
   .right-shape {
     position: relative;
     grid-area: 3 / 3 / 4 / 4;
-    background: url('/images/deco/desktop/image-geometry_work-right.svg')
+    background:
+      url('/images/deco/desktop/image-geometry_work-right.svg')
       no-repeat;
     background-size: contain;
-    top: 39%;
-    left: -30.8%;
-    width: 44.7vw;
+    top: 41.4%;
+    left: -28.5%;
+    width: 43.3vw;
   }
 
   .tn5 {
     position: relative;
     grid-area: 2 / 3 / 3 / 4;
-    width: 32.6vw;
-    top: 74%;
-    left: -3.6%;
+    width: 31.5vw;
+    top: 80%;
     z-index: 1;
   }
 
   .tn6 {
     position: relative;
     grid-area: 2 / 3 / 3 / 4;
-    width: 32.6vw;
+    width: 31.5vw;
     top: 1%;
-    left: -3.6%;
   }
 
   /*** Thumbnail Show-Hide ***/
@@ -696,6 +715,7 @@ svg {
   .show-hide {
     position: absolute;
     width: 100%;
+    max-height: 100%;
     display: none;
     z-index: 2;
   }
@@ -704,41 +724,216 @@ svg {
     display: block;
   }
 
+  .thum-title {
+    font-size: 120%;
+    margin-block: 3%;
+  }
+
+  .thum-lang {
+    font-size: 70%;
+  }
+
+  .js {
+    display: none;
+  }
+
+  .plus {
+    display: inline-block;
+    padding-top: 3%;
+  }
+
+  .plus::after {
+    content: '+1';
+  }
+
+  .see-project {
+    background-color: white;
+    color: #1a2236;
+    font-size: 90%;
+    margin: 1% 9% 2% 18px;
+    padding: 1% 3%;
+  }
+
   /************** About Section ***************/
 
   .about-container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 45%;
+    text-align: left;
+    gap: 5%;
+    margin: 0 9%;
+    padding: 0;
+  }
+
+  .about-text-cont {
+    grid-area: 1 / 2 / 2 / 3;
+    width: 100%;
   }
 
   .about-title {
-    grid-area: 1 / 2 / 2 / 3;
+    font-size: 450%;
   }
 
   .about-paragraph {
-    grid-area: 1 / 2 / 2 / 3;
+    margin-left: 18px;
   }
 
   .getCv-button {
-    grid-area: 1 / 2 / 2 / 3;
+    margin-left: 18px;
+    padding-inline: 18px;
+    width: fit-content;
   }
 
   .cards-container {
     grid-area: 1 / 1 / 2 / 2;
-    width: 45wv;
+    width: 100%;
+    height: 40vw;
     display: grid;
     grid-template-areas:
       'langs frames'
       'skills deco';
   }
 
-  .about-deco {
-    grid-area: deco;
-    background: url('/images/deco/desktop/about-deco.svg') no-repeat;
-    background-size: contain;
-    width: 100%;
+  .cards-list {
+    height: 20vw;
   }
 
-  .getCv-button {
-    height: 3rem;
+  .card {
+    width: 100%;
+    margin: 0;
+    padding: 15%;
+    height: 100%;
+  }
+
+  .about-card-title {
+    font-size: 120%;
+    margin: 9% 0 18% -3%;
+  }
+
+  .about-card-list {
+    font-size: 0.6rem;
+    line-height: 150%;
+    margin: 0;
+  }
+
+  .languages {
+    grid-area: langs;
+  }
+
+  .lang-cont {
+    right: 0;
+  }
+
+  .frameworks {
+    grid-area: frames;
+  }
+
+  .frame-cont {
+    right: -1%;
+  }
+
+  .skills {
+    grid-area: skills;
+  }
+
+  .skills-cont {
+    right: 0;
+  }
+
+  .about-deco {
+    grid-area: deco;
+    position: relative;
+    background: url('/images/deco/desktop/about-deco.svg') no-repeat;
+    background-size: contain;
+    width: 80%;
+    top: 20%;
+    left: 20%;
+  }
+
+  /******* Contact form ********/
+
+  .contact-form {
+    position: relative;
+    display: grid;
+    margin-top: 10vw;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    grid-template-areas:
+      'deco-1 title .'
+      '. form-p .'
+      '. form .'
+      '. . deco-2';
+  }
+
+  .form-deco-1 {
+    grid-area: deco-1;
+    align-self: flex-start;
+    width: 18.45vw;
+    height: 24.3vw;
+    background: url('images/deco/desktop/form-deco-1.svg') no-repeat;
+    background-size: cover;
+  }
+
+  .form-title {
+    grid-area: title;
+    font-size: 450%;
+    margin: 9vw 0 3vw 0;
+  }
+
+  .contact-form p {
+    grid-area: form-p;
+    margin: 3% 9vw;
+    padding: 0;
+    text-justify: distribute;
+  }
+
+  .contact-form form {
+    grid-area: form;
+    padding: 0;
+    margin: 0;
+    justify-self: center;
+  }
+
+  .form-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .form-input-container {
+    width: 48%;
+  }
+
+  .form-deco-2 {
+    grid-area: deco-2;
+    position: relative;
+    align-self: flex-end;
+    width: 24.3vw;
+    height: 24.3vw;
+    margin-top: -9vw;
+    background: url('/images/deco/desktop/form-deco-2.svg') no-repeat;
+    background-size: contain;
+  }
+
+  /******* Footer ******/
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .social-icons-container {
+    width: 33%;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 970px) {
+  .js {
+    display: inline-block;
+  }
+
+  .plus {
+    display: none;
   }
 }
