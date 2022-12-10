@@ -53,7 +53,7 @@ nav {
   position: relative;
   width: 111px;
   height: 74px;
-  background: url('images/deco/mobil/nav-logo.svg');
+  background: url('./images/deco/mobil/nav-logo.svg');
 }
 
 .nav-items-container {
@@ -62,10 +62,20 @@ nav {
 
 .nav-item {
   text-align: center;
+  font-size: 120%;
 }
 
 .nav-link {
   text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #1a2236;
+}
+
+.nav-link:visited {
+  color: #7d7c84;
 }
 
 /* Display Menu Button */
@@ -163,7 +173,7 @@ nav {
   margin: 15px 0;
   width: 100%;
   height: 53.333vw;
-  background: url('/images/image_geometry_2.svg') no-repeat;
+  background: url('./images/image_geometry_2.svg') no-repeat;
   background-size: contain;
 }
 
@@ -281,8 +291,16 @@ button:active {
   font-size: 1.2rem;
 }
 
-.fas {
-  margin-left: 18px;
+.download-icon-1 {
+  position: relative;
+  top: 6px;
+  left: 18px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+  background: url('./images/icons/download-icon-1.svg') no-repeat;
+  background-size: contain;
 }
 
 .cards-list {
@@ -328,7 +346,7 @@ button:active {
   right: -13%;
   width: 30%;
   height: 30%;
-  background: url('/images/lang.svg') no-repeat;
+  background: url('./images/lang.svg') no-repeat;
   background-size: contain;
   opacity: 0.6;
 }
@@ -343,7 +361,7 @@ button:active {
   right: -13.5%;
   width: 30%;
   height: 30%;
-  background: url('/images/Frameworks.svg') no-repeat;
+  background: url('./images/Frameworks.svg') no-repeat;
   background-size: contain;
   opacity: 0.6;
 }
@@ -358,7 +376,7 @@ button:active {
   right: -13%;
   width: 30%;
   height: 30%;
-  background: url('/images/ic_skills.svg') no-repeat;
+  background: url('./images/ic_skills.svg') no-repeat;
   background-size: contain;
   opacity: 0.6;
 }
@@ -377,7 +395,7 @@ button:active {
   position: relative;
   width: 111px;
   height: 74px;
-  background: url('images/deco/mobil/nav-logo.svg');
+  background: url('./images/deco/mobil/nav-logo.svg');
 }
 
 .form-title {
@@ -454,17 +472,15 @@ footer {
   color: #92dcdc;
 }
 
-.up-right-from-square {
+.download-icon {
   position: relative;
   top: 6px;
   left: 18px;
   display: inline-block;
   width: 24px;
   height: 24px;
-}
-
-svg {
-  color: #92dcdc;
+  background: url('./images/icons/download-icon.svg') no-repeat;
+  background-size: contain;
 }
 
 .social-icons-container {
@@ -476,14 +492,28 @@ svg {
   list-style: none;
 }
 
-.fa {
+.soc-icon {
+  display: inline-block;
   color: white;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
 }
 
-.fa-linkedin {
-  color: #1a2236;
-  background-color: white;
-  padding: 3px 4px;
+.stack {
+  background: url('/images/icons/ic_stackoverflow.svg') no-repeat;
+}
+
+.github {
+  background: url('./images/icons/github-icon.svg');
+}
+
+.twitter {
+  background: url('./images/icons/ic_twitter.svg');
+}
+
+.linkedin {
+  background: url('./images/icons/ic_linkedin.svg') no-repeat;
 }
 
 .m {
@@ -491,14 +521,13 @@ svg {
   top: 6px;
   width: 30px;
   height: 30px;
-  background: url('/images/M.svg') no-repeat;
-  background-size: contain;
+  background: url('./images/icons/M-icon.svg') no-repeat;
 }
 
 .pnl {
   width: 30px;
   height: 30px;
-  background: url('/images/peace-n-love.svg') no-repeat;
+  background: url('./images/icons/pnl-icon.svg') no-repeat;
   background-size: contain;
 }
 
@@ -536,11 +565,6 @@ svg {
     margin: 18px;
   }
 
-  .av-link,
-  .nav-link:visited {
-    color: #1a2236;
-  }
-
   /*** Headline Section ***/
 
   .headline-container {
@@ -550,13 +574,17 @@ svg {
   }
 
   .headline-title {
-    font-size: 4.5rem;
+    font-size: 900%;
     margin-bottom: 18px;
+  }
+
+  .headline-paragraph {
+    font-size: 120%;
   }
 
   .start-colaboration {
     width: fit-content;
-    font-size: 1rem;
+    font-size: 120%;
     padding-inline: 36px;
     margin-top: 21px;
   }
@@ -566,7 +594,7 @@ svg {
     margin: 0;
     width: 48.75vw;
     height: 60.89vw;
-    background: url('/images/deco/desktop/image-geometry_1.svg') no-repeat;
+    background: url('./images/deco/desktop/image-geometry_1.svg') no-repeat;
     background-size: contain;
   }
 
@@ -576,7 +604,7 @@ svg {
     left: -25%;
     width: 25%;
     height: 20%;
-    background: url('/images/deco/desktop/eight_dots.svg') no-repeat;
+    background: url('./images/deco/desktop/eight_dots.svg') no-repeat;
     background-size: contain;
   }
 
@@ -593,19 +621,14 @@ svg {
     margin-bottom: 30vw;
   }
 
-  .thum-img {
-    position: relative;
-    width: 100%;
-  }
-
   .work-title {
     position: relative;
     transform: rotate(-90deg);
     grid-area: 2 / 1 / 1 / 2;
     height: fit-content;
     margin: 0;
-    font-size: 6vw;
-    bottom: -5%;
+    font-size: 6.3vw;
+    bottom: -6%;
     left: -9%;
   }
 
@@ -614,13 +637,18 @@ svg {
     grid-area: 1 / 2 / 2 / 2;
     left: -11.8vw;
     top: 3px;
-    background: url('/images/deco/desktop/seven_dots.svg') no-repeat;
+    background: url('./images/deco/desktop/seven_dots.svg') no-repeat;
     background-size: contain;
     width: 12.1527vw;
     height: 12.1527vw;
   }
 
+  .thum-img {
+    position: relative;
+  }
+
   .tn1 {
+    position: relative;
     grid-area: 1 / 2 / 2 / 4;
     width: 66.6vw;
     height: 38.75vw;
@@ -639,7 +667,7 @@ svg {
     grid-area: 2 / 2 / 3 / 3;
     width: 35.5vw;
     background:
-      url('/images/deco/desktop/image-geometry_work-center.svg')
+      url('./images/deco/desktop/image-geometry_work-center.svg')
       no-repeat;
     background-size: contain;
     top: 1.5%;
@@ -667,7 +695,7 @@ svg {
   .drop {
     position: relative;
     grid-area: 4 / 1 / 5 / 2;
-    background: url('/images/deco/desktop/single_drop.svg') no-repeat;
+    background: url('./images/deco/desktop/single_drop.svg') no-repeat;
     background-size: contain;
     width: 7vw;
     top: -1.7%;
@@ -687,7 +715,7 @@ svg {
     position: relative;
     grid-area: 3 / 3 / 4 / 4;
     background:
-      url('/images/deco/desktop/image-geometry_work-right.svg')
+      url('./images/deco/desktop/image-geometry_work-right.svg')
       no-repeat;
     background-size: contain;
     top: 41.4%;
@@ -717,6 +745,7 @@ svg {
     width: 100%;
     max-height: 100%;
     display: none;
+    bottom: 0;
     z-index: 2;
   }
 
@@ -726,6 +755,7 @@ svg {
 
   .thum-title {
     font-size: 120%;
+    font-weight: 600;
     margin-block: 3%;
   }
 
@@ -842,7 +872,7 @@ svg {
   .about-deco {
     grid-area: deco;
     position: relative;
-    background: url('/images/deco/desktop/about-deco.svg') no-repeat;
+    background: url('./images/deco/desktop/about-deco.svg') no-repeat;
     background-size: contain;
     width: 80%;
     top: 20%;
@@ -870,7 +900,7 @@ svg {
     align-self: flex-start;
     width: 18.45vw;
     height: 24.3vw;
-    background: url('images/deco/desktop/form-deco-1.svg') no-repeat;
+    background: url('./images/deco/desktop/form-deco-1.svg') no-repeat;
     background-size: cover;
   }
 
@@ -911,7 +941,7 @@ svg {
     width: 24.3vw;
     height: 24.3vw;
     margin-top: -9vw;
-    background: url('/images/deco/desktop/form-deco-2.svg') no-repeat;
+    background: url('./images/deco/desktop/form-deco-2.svg') no-repeat;
     background-size: contain;
   }
 
