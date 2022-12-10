@@ -3,7 +3,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="images/Astroboy.jpg" alt="logo" width="150"  height="auto" />
+  <img src="images/icons/Astroboy-removebg.png" alt="logo" width="150"  height="auto" />
   <br/>
   <h3><b>Portfolio: mobile-first</b></h3>
 </div>
@@ -58,6 +58,8 @@
 - **Mobile First.**
 - **Toolbar.**
 - **Headline.**
+- **Contact Form**.
+- **Footer/Social Media**.
 
 <!-- LIVE DEMO -->
 
@@ -92,6 +94,7 @@
 - May use as a base to develop your own portfolio.
 - Run `npx hint .` to get code review.
 - Run `npx stylelint "**/*.{css,scss}"` to get code review.
+- Run `lighthouse <URL>` to get code review .
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -108,8 +111,9 @@
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Contact Form.**
-- [ ] **Desktop Vertion**
+- **Desktop Vertion**.
+- **Real Projects**.
+- **CV**.
 
 <!-- CONTRIBUTING -->
 
