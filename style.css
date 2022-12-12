@@ -700,7 +700,8 @@ footer {
     position: relative;
     grid-area: 2 / 2 / 3 / 3;
     width: 35.5vw;
-    background: url('./images/deco/desktop/image-geometry_work-center.svg')
+    background:
+      url('./images/deco/desktop/image-geometry_work-center.svg')
       no-repeat;
     background-size: contain;
     top: 1.5%;
@@ -718,7 +719,8 @@ footer {
     position: relative;
     grid-area: 4 / 1 / 5 / 2;
     top: -1.7%;
-    background: url('/images/deco/desktop/image-geometry_work-left.svg')
+    background:
+      url('/images/deco/desktop/image-geometry_work-left.svg')
       no-repeat;
     background-size: contain;
     width: 55.55%;
@@ -746,7 +748,8 @@ footer {
   .right-shape {
     position: relative;
     grid-area: 3 / 3 / 4 / 4;
-    background: url('./images/deco/desktop/image-geometry_work-right.svg')
+    background:
+      url('./images/deco/desktop/image-geometry_work-right.svg')
       no-repeat;
     background-size: contain;
     top: 41.4%;
