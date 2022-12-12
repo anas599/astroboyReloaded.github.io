@@ -72,7 +72,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Open the [link to demo.](https://portfolio-setup-and-mobile-first.netlify.app/)
+> Open the [link to demo.](https://astroboyreloaded.github.io/)
 
 ### Prerequisites
 
